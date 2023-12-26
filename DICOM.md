@@ -1,0 +1,4 @@
+ - DICOM stands for Digital Imaging and Communications in Medicine.
+ - It is s standard protocol that is responsible to produce, store, process and display digital images in radiology.
+ - DICOM is widely used for most types of medical imaging, for example magnetic resonance imaging (MRI), computed tomography (CT) scans, mammograms, and ultrasounds.
+ - Image files that are compliant with ?part 10? of the DICOM standard are generally referred to as “DICOM format files” or simply “DICOM files” and are represented as “.dcm.”
