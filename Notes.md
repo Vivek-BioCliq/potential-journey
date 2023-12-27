@@ -17,6 +17,7 @@
 - Computed Tomography (CT) is a medical imaging technique that uses X-rays to create detailed images of structures inside the body.
 - It produces cross-sectional images, or "slices," of the body, allowing doctors to visualize internal organs, bones, soft tissues, and blood vessels in great detail.
 - During a CT scan, the X-ray machine rotates around the patient, capturing multiple X-ray images from different angles. A computer processes these images to create detailed cross-sectional views, which can be further reconstructed into 3D images if needed.
+- The file format commonly associated with CT scans is DICOM.
 
 # CT Sequence
 -
