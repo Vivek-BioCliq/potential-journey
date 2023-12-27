@@ -4,7 +4,7 @@
  - DICOM is widely used for most types of medical imaging, for example magnetic resonance imaging (MRI), computed tomography (CT) scans, mammograms, and ultrasounds.
  - Image files that are compliant with ?part 10? of the DICOM standard are generally referred to as “DICOM format files” or simply “DICOM files” and are represented as “.dcm.”
  - DICOM files contain both the images themselves (like CT scans, MRIs, or X-rays) and the related metadata.
- - 
+   
 
 # DICOM Tags
 - DICOM tags are data elements within a DICOM file that contain information about the patient, the image, and how the image was acquired.
