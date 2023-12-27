@@ -20,4 +20,5 @@
 - The file format commonly associated with CT scans is DICOM.
 
 # CT Sequence
--
+- In CT scan, the patient is moved forward along the longitudinal axis of the CT scanner, pausing at intervals to allow a trans-axial image to be captured at each position along the axis.
+- Each image is called CT sequence
