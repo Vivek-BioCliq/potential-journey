@@ -6,12 +6,16 @@
 - The resulting image shows the kidneys, ureters, and bladder
 - The image produced by a KUB X-ray is typically in grayscale (varying shades of gray).
 
+---
+
 # nii Images
 - The Neuroimaging Informatics Technology Initiative (NIfTI) is an open file format commonly used to store brain imaging data obtained using Magnetic Resonance Imaging (MRI) method.
 - NII files contain information about the structure of the brain.
 - NIfTI files typically have the extensions .nii or .nii.gz (if compressed).
 - Brain images in NIfTI format are represented as a 3D or 4D matrix of voxels (volumetric pixels).
 - NIfTI files include header information that describes the image data, such as dimensions, voxel size, data type, orientation, and other metadata like patient information, acquisition parameters, and study details.
+
+----
 
 # Image Compression
 - Image compression is a process that makes image files smaller.
@@ -41,3 +45,6 @@ which is sometimes used on the web instead of JPEG or WebP.
 often used on the web as well.
 #### Bitmap (BMP)
 files are usually too large for practical use on the web.
+
+---
+
