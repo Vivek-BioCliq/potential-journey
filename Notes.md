@@ -20,5 +20,12 @@
 - The file format commonly associated with CT scans is DICOM.
 
 # CT Sequence
-- In CT scan, the patient is moved forward along the longitudinal axis of the CT scanner, pausing at intervals to allow a trans-axial image to be captured at each position along the axis.
-- Each image is called CT sequence
+
+1. **Axial**: Axial planes are horizontal planes that divide the body into upper and lower sections. Axial CT scans are obtained by taking cross-sectional images parallel to the ground, providing a view from the top looking down or from the bottom looking up. These images display structures as if you're looking from the feet toward the head or vice versa.
+
+2. **Coronal**: Coronal planes divide the body into front and back sections. Coronal CT scans are acquired by taking images perpendicular to the ground, providing a view from the front to the back or vice versa. These images display structures as if you're looking from one side of the body to the other.
+
+3. **Sagittal**: Sagittal planes divide the body into left and right sections. Sagittal CT scans are acquired by taking images perpendicular to both the axial and coronal planes, providing a view from the side. These images display structures as if you're looking from one side of the body or the other. Sagittal views are helpful for examining structures such as the spinal cord or joints.
+
+  ![image](https://github.com/Vivek-BioCliq/potential-journey/assets/154883282/07a898f6-0dcb-417a-8db7-5cf2812aaee0)
+
