@@ -19,7 +19,7 @@
 - During a CT scan, the X-ray machine rotates around the patient, capturing multiple X-ray images from different angles. A computer processes these images to create detailed cross-sectional views, which can be further reconstructed into 3D images if needed.
 - The file format commonly associated with CT scans is DICOM.
 
-# CT Sequence
+# CT Planes
 
 1. **Axial**: Axial planes are horizontal planes that divide the body into upper and lower sections. Axial CT scans are obtained by taking cross-sectional images parallel to the ground, providing a view from the top looking down or from the bottom looking up. These images display structures as if you're looking from the feet toward the head or vice versa.
 
@@ -29,3 +29,13 @@
 
   ![image](https://github.com/Vivek-BioCliq/potential-journey/assets/154883282/07a898f6-0dcb-417a-8db7-5cf2812aaee0)
 
+
+# CT Sequences
+## Plain CT Sequence
+- This sequence involves taking images without the use of a contrast agent.
+- It provides a baseline view of the body's structures, showing anatomical details like bones, organs, and tissues without the use of any additional substance.
+
+## Contrast CT Sequence
+ - This involves administering a contrast agent, typically **iodine-based, orally or through an IV injection**.
+ - The contrast agent helps to highlight blood vessels, organs, and other structures by making them more visible on the CT images.
+ - It improves the visualization of certain conditions like tumors, inflammation, or vascular irregularities.
