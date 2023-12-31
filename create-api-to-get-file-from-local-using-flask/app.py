@@ -1,6 +1,19 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_file
+from pymongo import MongoClient
+from dotenv import load_dotenv
+import os
+from io import BytesIO
 
 app=Flask(__name__)
+
+load_dotenv()
+
+MONGO_URI= os.environ.get('mongo_uri')
+client = MongoClient(MONGO_URI)
+db= client['practice1']
+
+uploaded_files= db['files']
+
 
 @app.route('/')
 def fun():
@@ -23,9 +36,28 @@ def upload_file():
         return "File name not found", 400
     
     if file:
-        file.save(file_name)
-        return f"File {file_name} uploaded successfully"
+        file_data = file.read()
+        inserted_file = uploaded_files.insert_one({
+            'filename': file.filename,
+            'data': file_data
+        })
+
+        return f"File {file_name} uploaded and saved in the database with id: {inserted_file.inserted_id}"
     
+@app.route('/files')
+def show_files():
+    files = uploaded_files.find({}, {'filename': 1})  
+    return render_template('files.html', files=files)
+
+@app.route('/download/<filename>')
+def download_file(filename):
+    file_data = uploaded_files.find_one({'filename': filename}) 
+    if file_data:
+        data = file_data['data']
+        return send_file(BytesIO(data), as_attachment=True, download_name=filename)
+
+    else:
+        return "File not found", 404
     
 
 if __name__ == '__main__':
