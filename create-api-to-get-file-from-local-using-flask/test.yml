@@ -3,4 +3,3 @@ address:
     first: 1234
     second: 5678
 
-mongo_uri : mongodb+srv://vivek:vivekdevshah@cluster0.b78sjxs.mongodb.net/practice1

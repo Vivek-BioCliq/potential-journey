@@ -1,22 +1,23 @@
 from flask import Flask, render_template, request, send_file
 from pymongo import MongoClient
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
 import os
 from io import BytesIO
 import yaml
 
 app=Flask(__name__)
 
-# load_dotenv()
+load_dotenv()
 
+
+# configure yaml file
 with open('test.yml', 'r') as f:
     test = yaml.safe_load(f)
-    
 print(test)
 print(test['name'])
 
-# MONGO_URI= os.environ.get('mongo_uri')
-MONGO_URI = test['mongo_uri']
+MONGO_URI= os.environ.get('mongo_uri')
+# MONGO_URI = test['mongo_uri']
 client = MongoClient(MONGO_URI)
 db= client['practice1']
 
