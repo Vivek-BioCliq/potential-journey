@@ -1,0 +1,5 @@
+- YAML stands for "YAML Ain't Markup Language."
+- It's a human-readable data serialization format often used for configuration files, data exchange, and applications where human readability is a primary concern.
+- In YAML, data is structured using indentation and key-value pairs, making it easy to read and write.
+- It's widely used in many programming languages and tools. Libraries exist for parsing and generating YAML in languages like Python, JavaScript, Ruby, Java, etc.
+- YAML files typically have the extension ".yaml" or ".yml".
